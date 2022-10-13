@@ -1,0 +1,10 @@
+dollar = float(input("enter the value of dollar"))
+quarter = float(0.25 * dollar)
+dime = float(0.10 * dollar)
+nickels = float(0.05 * dollar)
+penney = float(0.01 * dollar)
+
+print ("quarter is ",quarter)
+print ("dime is ",dime)
+print ("nickels is",nickels)
+print ("penney is ",penney)

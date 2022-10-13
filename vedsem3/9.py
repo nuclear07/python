@@ -1,0 +1,7 @@
+P = int(input("enter the number of P :"))
+R = int(input("enter the number of R :"))
+n = int(input("enter the number of n :"))
+T = int(input("enter the number of T :"))
+X = float(n*T)  
+intrest = float(P * (1 + R /(100 * n))**X)   
+print ("compound intrest is ", intrest)

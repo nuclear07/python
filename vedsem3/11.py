@@ -1,0 +1,6 @@
+print ("FINDING AREA AND VOLUME OF SPHERE")
+r = int(input("enter the value of r"))
+area = float(4*3.14*r**2)
+volume = float(4/3 * 3.14 * r**3)
+print ("area of sphere is", area)
+print ("volum of sphere is ",volume)
